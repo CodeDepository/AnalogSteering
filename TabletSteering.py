@@ -38,7 +38,7 @@ def process_input():
     gamepad.update()
 
 try:
-    print("Running analog steering script. Move your pen to steer.")
+    print("Running analog steering script. Move your MOUSE OR PEN to steer.")
     while True:
         process_input()
         time.sleep(0.01)  # Small delay for smoother updates
